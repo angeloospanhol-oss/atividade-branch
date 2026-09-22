@@ -13,3 +13,30 @@ footer h3
 {
     color: #050607;
 }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #164194;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 95px;
+}
+
+menu{
+    justify-content: center;
+    flex-direction: column;
+}
+
+header h1{
+    font-size: 45px;
+    padding: 20px;
+}
+
+.logo-site{
+    width: 85px;
+    height: 75px;
+}
