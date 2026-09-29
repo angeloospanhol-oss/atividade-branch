@@ -63,5 +63,88 @@ section.cards a{
 .maiores a {
     background-color: rgb(42, 100, 193);
     padding: 10px;
+footer {
+    background-color: #5c5e5f;
+    color: #f8f8f8;
+    padding: 30px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h3 {
+    color: #050607;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #164194;
+    height: 150px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Parte de cima do header */
+.cabecalho-topo {
+    width: 100%;
+    height: 95px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Título */
+header h1 {
+    font-size: 45px;
+    margin: 0;
+}
+
+/* Logo + data no canto direito */
+.info-cabecalho {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Logo */
+.logo-site {
+    width: 80px;
+    height: 70px;
+}
+
+/*Menu de navegação*/
+.menu {
+    background-color: #2e66d7;
+
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*botões do menu de navegação*/
+a {
+    margin: 10px;
+
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #f8f8f851;
+
+    padding: 5px;
     border-radius: 10px;
 }
