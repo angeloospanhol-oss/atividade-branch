@@ -1,3 +1,68 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 40px;
+}
+
+.maiores {
+    display: contents; 
+}
+
+.cards h2 {
+    width: 100%; 
+}
+
+/* Produtos normais */
+.cards  div,
+.maiores  div {
+    width: 220px;
+    text-align: center;
+}
+
+.cards img {
+    width: 100%;
+    height: 160px;
+    
+}
+
+/* Produto em destaque */
+.maiores  .mousepad {
+    width: 100%;         
+    max-width: 320px;
+    padding: 20px;
+    border: 3px solid rgb(234, 203, 29);
+    border-radius: 23px;
+    margin-bottom: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+    background-image:linear-gradient(rgb(213, 213, 249), rgb(141, 140, 140), rgb(212, 212, 246));
+}
+
+.maiores  .mousepad img {
+    height: 150px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.cards {
+    background-color: rgb(204, 204, 204);
+    border-radius: 30px;
+    background-image: linear-gradient(rgb(213, 213, 249), rgb(141, 140, 140), rgb(212, 212, 246));
+}
+
+section.cards a{
+    background-color: rgb(42, 100, 193);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.maiores a {
+    background-color: rgb(42, 100, 193);
+    padding: 10px;
 footer {
     background-color: #5c5e5f;
     color: #f8f8f8;
